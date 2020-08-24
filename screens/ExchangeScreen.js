@@ -77,7 +77,7 @@ export default class ExchangeScreen extends Component{
                 style={styles.button}
                 onPress={()=>{this.addItem(this.state.itemName,this.state.description)}}
                 >
-                <Text>Request</Text>
+                <Text>Add Item</Text>
               </TouchableOpacity>
             </KeyboardAvoidingView>
         </View>
